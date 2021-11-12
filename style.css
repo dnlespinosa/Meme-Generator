@@ -1,0 +1,180 @@
+
+#topBox {
+    background-color: rgba(128, 128, 128, 0.486);
+    margin: 0%;
+    height: 250px;
+    width:100%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: rgba(0, 0, 0, 0) 1px solid;
+    border-radius: 5px;
+
+}
+
+#topBox h1 {
+    color:rgba(46, 134, 248, 0.849);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:250%;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    /* right: 75px; */
+    top: 20px;
+    margin: 0;
+    
+}
+
+#topBox h2 {
+    color:rgba(46, 134, 248, 0.849);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:200%;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    /* right: 75px; */
+    top: 70px;
+    margin: 0;
+}
+
+#topBox form {
+    color:rgba(46, 134, 248, 0.849);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100%;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: left;
+    left:20px;
+    top: 120px;
+    margin: 0;
+}
+
+button {
+    background-color:rgba(46, 134, 248, 0.849);
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100%;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    padding:5px;
+    right: 75px;
+    top: 215px;
+    margin: 0;
+    border: rgba(0, 0, 0, 0) 1px solid;
+    border-radius: 5px;
+}
+
+form #topText {
+    right:10px;
+    width:1200px;
+    padding:5px;
+    margin: 0px 0px 0px 150px;
+}
+
+form #bottomText {
+    width:1200px;
+    padding:5px;
+    margin: 0px 0px 0px 121.5px;
+}
+
+form #img {
+    padding:5px;
+    width:1200px;
+    margin: 0px 0px 0px 166.5px;
+}
+
+
+
+
+/* Everything below the submit button */
+
+#newPic div {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+#newImg {
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+    border: black 1px solid;
+    position:relative;
+}
+
+#topTop {
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:200%;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: left;
+    /* right: 75px; */
+    /* top: 10px; */
+    margin: 0;
+    text-shadow: 2px 2px 0 #000;
+}
+
+#bottomBottom {
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:200%;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    /* right: 75px; */
+    /* top: 20px; */
+    margin: 0;
+    text-shadow: 2px 2px 0 #000;
+}
+
+div #topDiv {
+    right:0px;
+    top:-350px;
+    margin:0%;
+    width: 350px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div #bottomDiv {
+    right:0px;
+    top:-120px;
+    margin:0%;
+    width: 350px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div #removeDiv {
+    right:0px;
+    top:-455px;
+    margin:0%;
+    width: 350px;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: black 1px solid;
+    background-color: rgba(0, 0, 0, 0.637);
+    opacity: 0%;
+}
+
+div #removeDiv:hover {
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+#removeText {
+    font-size: 250px;
+    color:white;
+    opacity: 50%;
+}
